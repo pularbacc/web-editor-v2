@@ -1,0 +1,39 @@
+.navbar-container{
+    height: 54px;
+    width: 100%;
+    border-bottom: 1px solid #363636;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px 32px;
+}
+
+.navbar-logo-name{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar-right-container{
+    height: 100%;
+    position: absolute;
+    right: 32px;
+    clear: both;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar-right-tab{
+    display: block;
+    padding: 0 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #e1e1e1;
+    transition: color .25s;
+}
+
+.navbar-right-tab:hover{
+    cursor: pointer;
+    color:#3ab37d;
+}

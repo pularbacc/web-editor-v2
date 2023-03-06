@@ -1,0 +1,45 @@
+@import "navbar.css";
+@import "main.css";
+@import "main-left.css";
+
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/font/roboto-normal.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/font/roboto-bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('/assets/font/roboto-500.ttf') format('truetype');
+    font-weight: 500;
+}
+
+body {
+    height: 100vh;
+    font-family: Roboto;
+    padding: 0px;
+    margin: 0px;
+    word-break: break-word;
+    background-color: #1a1a1a;
+    color:#e1e1e1;
+    overflow: hidden;
+}
+
+.editor {
+    width: 500px;
+    height: 400px;
+    clear: both;
+    display: inline-block;
+    padding: 5px;
+    font-size: 12pt;
+    border: 1px solid #383838;
+}
+
+* {
+    box-sizing: border-box;
+}

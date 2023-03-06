@@ -1,0 +1,149 @@
+.main-container{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 55px);
+    top: 55px;
+    overflow: hidden;
+}
+
+
+
+.main-code-container{
+    position: absolute;
+    width: calc(100% - 304px);
+    height: 100%;
+    right: 32px;
+    top: 0px;
+    overflow: hidden;
+    border-right: 1px solid #363636;
+}
+
+.main-code-input-container{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-right: 1px solid #383838;
+}
+
+.main-code-output-container{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.main-code-header{
+    width: 100%;
+    height: 37px;
+    border-bottom: 1px solid #383838;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.main-code-content{
+    width: 100%;
+    height: calc(100% - 38px);
+    top: 38px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.code-editor-container{
+    width: 100%;
+    height: 100%;
+    font-size: 11pt;
+    display: none;
+}
+
+.code-editor-output{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 0px;
+    border: none;
+}
+
+.main-code-tab{
+    height: 100%;
+    padding: 8px 10px 6px;
+    line-height: 20px;
+    font-size: 13px;
+    color: #aaaaaa;
+    clear: both;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.main-code-tab:hover{
+    cursor: pointer;
+}
+
+.main-code-tab-result-active{
+    border-bottom: 3px solid #89ddff;
+}
+
+.main-code-tab-right{
+    height: 100%;
+    position: absolute;
+    right: 12px;
+    clear: both;
+    display: inline-flex;
+    align-items: center;
+}
+
+
+.main-code-tab-run{
+    color:#3ab37d;
+}
+
+.main-code-tab-dropdown-container{
+    position: absolute;
+    width: 192px;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid #363636;
+    right: -8px;
+    top: 32px;
+    border-radius: 8px;
+    padding: 12px;
+    color:#213547;
+    font-size: 14px;
+    font-weight: 400;
+    display: none;
+}
+
+.dropdown-btn{
+    padding: 8px;
+}
+
+.dropdown-btn > input {
+    margin-right: 8px;
+}
+
+.dropdown-btn-download{
+    padding: 4px 12px 3px;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 14px;
+    width: 100%;
+    background-color: #42b883;
+    color:#1a1a1a;
+    border: none;
+}
+
+.dropdown-btn-download:hover{
+    cursor: pointer;
+}
+
+.main-code-tab:hover > .main-code-tab-dropdown-container{
+    display: block;
+}
+
+.main-code-tab:hover .main-code-tab-icon{
+    color:rgb(58, 179, 125);
+}
