@@ -1,2 +1,3 @@
-# 0101explore.github.io
-0101explore github page
+# Web Editor V2
+
+This is new version of [web editor](https://github.com/pularbacc/web-editor)
